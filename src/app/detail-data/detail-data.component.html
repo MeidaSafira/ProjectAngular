@@ -1,0 +1,52 @@
+<h3 mat-dialog-title>{{data.nama}}</h3>
+<div mat-dialog-content>
+    <mat-list>
+        <img class="tengah" matListAvatar src="assets/tambah.png" alt="...">
+        <h4 matSubheader>Email</h4>
+        <mat-list-item>
+            <mat-icon matListIcon color="primary">email</mat-icon>
+            <h3 mat-line>{{data.email}}</h3>
+            <mat-divider></mat-divider>
+        </mat-list-item>
+        <h4 matSubheader>Mata Pelajaran yang diambil</h4>
+        <mat-list-item>
+            <mat-icon matListIcon color="primary">class</mat-icon>
+            <h3 mat-line>{{data.mapel}}</h3>
+            <mat-divider></mat-divider>
+        </mat-list-item>
+        <h4 matSubheader>Kelas</h4>
+        <mat-list-item>
+            <mat-icon matListIcon color="primary">class</mat-icon>
+            <h3 mat-line>{{data.kelas}}</h3>
+            <mat-divider></mat-divider>
+        </mat-list-item>
+        <h4 matSubheader>Jenjang</h4>
+        <mat-list-item>
+            <mat-icon matListIcon color="primary">domain</mat-icon>
+            <h3 mat-line>{{data.jenjang}}</h3>
+            <mat-divider></mat-divider>
+        </mat-list-item>
+        <h4 matSubheader>Waktu Les</h4>
+        <mat-list-item>
+            <mat-icon matListIcon color="primary">snooze</mat-icon>
+            <h3 mat-line>{{data.waktu}}</h3>
+            <mat-divider></mat-divider>
+        </mat-list-item>
+        <h4 matSubheader>Nomor Telepon</h4>
+        <mat-list-item>
+            <mat-icon matListIcon color="primary">phone</mat-icon>
+            <h3 mat-line>{{data.hp}}</h3>
+            <mat-divider></mat-divider>
+        </mat-list-item>
+        <h4 matSubheader>Alamat</h4>
+        <mat-list-item>
+            <mat-icon matListIcon color="primary">home</mat-icon>
+            <h3 mat-line>{{data.alamat}}</h3>
+            <mat-divider></mat-divider>
+        </mat-list-item>
+    </mat-list>
+</div>
+<mat-dialog-actions>
+    <span class="spacer"></span>
+    <button mat-button mat-dialog-close>Tutup</button>
+</mat-dialog-actions>

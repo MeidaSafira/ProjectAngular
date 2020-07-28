@@ -1,0 +1,12 @@
+.spacer {
+    flex-grow: 1;
+}
+
+.container {
+    padding: 50px 150px 50px 150px;
+    width: 1000px;
+    background: rgb(243, 219, 6);
+    /*meletakkan form ke tengah*/
+    margin: 80px auto;
+    padding: 3px 3px;
+}

@@ -1,0 +1,41 @@
+<h3 mat-dialog-title>Data Siswa</h3>
+<img class="tengah" matListAvatar src="assets/tambah.png" alt="...">
+<div mat-dialog-content>
+    <mat-form-field style="width: 100%;">
+        <mat-label>Nama</mat-label>
+        <input matInput [(ngModel)]="data.nama">
+    </mat-form-field>
+    <mat-form-field style="width: 100%;">
+        <mat-label>Email</mat-label>
+        <input matInput [(ngModel)]="data.email">
+    </mat-form-field>
+    <mat-form-field style="width: 100%;">
+        <mat-label>Mata Pelajaran yang di ambil</mat-label>
+        <input matInput [(ngModel)]="data.mapel">
+    </mat-form-field>
+    <mat-form-field style="width: 100%;">
+        <mat-label>Kelas</mat-label>
+        <input matInput [(ngModel)]="data.kelas">
+    </mat-form-field>
+    <mat-form-field style="width: 100%;">
+        <mat-label>Jenjang</mat-label>
+        <input matInput [(ngModel)]="data.jenjang">
+    </mat-form-field>
+    <mat-form-field style="width: 100%;">
+        <mat-label>Waktu</mat-label>
+        <input matInput [(ngModel)]="data.waktu">
+    </mat-form-field>
+    <mat-form-field style="width: 100%;">
+        <mat-label>Nomor Telepon</mat-label>
+        <input matInput [(ngModel)]="data.hp">
+    </mat-form-field>
+    <mat-form-field style="width: 100%;">
+        <mat-label>Alamat</mat-label>
+        <input matInput [(ngModel)]="data.alamat">
+    </mat-form-field>
+</div>
+<mat-dialog-actions>
+    <span class="spacer"></span>
+    <button mat-button mat-dialog-close>Batal</button>
+    <button mat-raised-button color="primary" (click)="simpan(data)">Simpan</button>
+</mat-dialog-actions>
